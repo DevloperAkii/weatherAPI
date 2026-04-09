@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: #fff;
+}
+
+.main-wrapper{
+    width: 60vw;
+    height: 80vh;
+
+    margin: 10px auto;
+    background-color: hsl(216, 10%, 10%);
+}
+
+.locationDisplay{
+    padding: 20px 20px;
+}
+
+.sun-img{
+    width: 8em;
+    float: left;
+
+    padding: 0px 20px;
+}
+
+.celcius{
+    display: inline;
+    float: left;
+
+    font-size: 4rem;
+}
+
+.celcius sup{
+    font-size: 1.2rem;
+    padding: 0 5px ;
+
+    border-right: 1px solid #fff;
+}
+
+.celcius sup::before {
+  content: "◦";
+  vertical-align: super;
+  font-size: smaller;
+}
