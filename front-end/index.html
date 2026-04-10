@@ -12,8 +12,27 @@
         </header>
         <main>
             <img src="img/sun-yellow-spiral.png" class="sun-img">
-            <h2 id="celcius-text" class="celcius">0<sup>C</sup><sup>F</sup></h2>
+            <h2 id="celcius-text" class="celcius">0<sup class="sup-celc">C</sup><sup>F</sup></h2>
+            <div class="temp-info">
+                <p>Precipitation: <span id="precipitation-value">0</span></p>
+                <p>Humidity: <span id="humidity-value">0</span></p>
+                <p>Wind: <span id="wind-value">0</span></p>
+            </div>
+            <div class="disciption-info">
+                <h2>Weather</h2>
+                <h3 class="day-time" id="day-time">Monday, 0:00</h3>
+                <h3 class="condition" id="condition">clear</h3>
+            </div>
         </main>
+        <footer>
+            <div id="future-display">
+                <!-- <div class="card" id="card">
+                    <h4>[DAY]</h4>
+                    <img src="img/sun-yellow-spiral.png">
+                    <p>[temp]</p>
+                </div> -->
+            </div>
+        </footer>
         <script src="index.js"></script>
     </div>
 </body>
